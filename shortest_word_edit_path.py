@@ -63,3 +63,8 @@ source = "hit"
 target = "cog"
 words = ["hot", "dot", "dog", "cog", "lot", "log"]
 print(shortest_word_edit_path(source, target, words))
+
+source = "bit"
+target = "dog"
+words = ["but", "put", "big", "pot", "pog", "dog", "lot"]
+print(shortest_word_edit_path(source, target, words))
