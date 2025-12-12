@@ -2,6 +2,10 @@
 
 from typing import List
 
+import BusiestTimeInMall
+from deletion_distance import deletion_distance
+
+
 def get_shortest_unique_substring(arr: List[str], s: str) -> str:
      count_map = {char: 0 for char in s}
 
@@ -31,10 +35,25 @@ def get_shortest_unique_substring(arr: List[str], s: str) -> str:
 
      return result
 
-# def __main__():
-arr = ["x", "y", "z"]
-s="xyyzyzyx"
-print(get_shortest_unique_substring(arr, s))
+def __main__():
+    # // BusiestTimeInMall
+    BusiestTimeInMall.find_busiest_time([[1487799425, 14, 1],
+                         [1487799425, 4, 1],
+                         [1487799425, 2, 1],
+                         [1487800378, 10, 1],
+                         [1487801478, 18, 1],
+                         [1487901013, 1, 1],
+                         [1487901211, 7, 1],
+                         [1487901211, 7, 1]])
+    # Deletion distance
+    str1 = "frog"
+    str2 = "dog"
+    print(deletion_distance(str1, str2))
 
-# if __name__ == '__main__':
-#     __main__()
+    # get_shortest_unique_substring
+    arr = ["x", "y", "z"]
+    s="xyyzyzyx"
+    print(get_shortest_unique_substring(arr, s))
+
+if __name__ == '__main__':
+    __main__()
