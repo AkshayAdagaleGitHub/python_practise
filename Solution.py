@@ -4,6 +4,7 @@ from typing import List
 
 import BusiestTimeInMall
 import buy_and_sell_stock
+import decrypt_message
 from deletion_distance import deletion_distance
 
 
@@ -38,19 +39,25 @@ def get_shortest_unique_substring(arr: List[str], s: str) -> str:
 
 def __main__():
 
-    # Buy And Sell Stock
-    stock_prices = [7, 1, 5, 3, 6, 4]
-    print(buy_and_sell_stock.max_profit_greedy(stock_prices))
-    # output: 7 (Buy on day 2 at 1, sell on day 3 at 5, buy on day 4 at 3, and sell on day 5 at 6)
-    stock_prices = [1, 2, 3, 4, 5]
-    print(buy_and_sell_stock.max_profit_greedy(stock_prices))
-    # output: 4 (Buy on day 1 at 1 and sell on day 5 at 5)
-    stock_prices = [7, 6, 4, 3, 1]
-    print(buy_and_sell_stock.max_profit_greedy(stock_prices))
-    # output: 0 (No transaction is done, i.e., max profit = 0)
-    stock_prices = [1, 10, 2, 3]
-    print(buy_and_sell_stock.max_profit_greedy(stock_prices))
-    # output: 10 (Buy on day 1 at 1 and sell on day 2 at 10)
+    # decrypt message
+    print(decrypt_message.decrypt("dnotq"))
+    print(decrypt_message.decrypt("flgxswdliefy")) # encyclopedia
+    print(decrypt_message.decrypt("rajsb")) # qqqqq
+    print(decrypt_message.decrypt("bvqmjhgghjmqvbiqzjugthwmdv")) # a to z
+
+    # # Buy And Sell Stock
+    # stock_prices = [7, 1, 5, 3, 6, 4]
+    # print(buy_and_sell_stock.max_profit_greedy(stock_prices))
+    # # output: 7 (Buy on day 2 at 1, sell on day 3 at 5, buy on day 4 at 3, and sell on day 5 at 6)
+    # stock_prices = [1, 2, 3, 4, 5]
+    # print(buy_and_sell_stock.max_profit_greedy(stock_prices))
+    # # output: 4 (Buy on day 1 at 1 and sell on day 5 at 5)
+    # stock_prices = [7, 6, 4, 3, 1]
+    # print(buy_and_sell_stock.max_profit_greedy(stock_prices))
+    # # output: 0 (No transaction is done, i.e., max profit = 0)
+    # stock_prices = [1, 10, 2, 3]
+    # print(buy_and_sell_stock.max_profit_greedy(stock_prices))
+    # # output: 10 (Buy on day 1 at 1 and sell on day 2 at 10)
 
     # // BusiestTimeInMall
     # BusiestTimeInMall.find_busiest_time([[1487799425, 14, 1],
