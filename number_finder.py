@@ -18,6 +18,3 @@ def find_first(array: List[int], num:int) -> int:
 
     return ans
 
-print(find_first([200, 200, 200, 200, 500, 500, 500], 200))
-print(find_first([200, 200, 200, 200, 500, 500, 500], 500))
-print(find_first([200, 200, 200, 200, 500, 500, 500], 100))

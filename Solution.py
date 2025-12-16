@@ -5,6 +5,7 @@ from typing import List
 import BusiestTimeInMall
 import buy_and_sell_stock
 import decrypt_message
+import number_finder
 from deletion_distance import deletion_distance
 
 
@@ -39,11 +40,16 @@ def get_shortest_unique_substring(arr: List[str], s: str) -> str:
 
 def __main__():
 
+    ## Number finder
+    print(number_finder.find_first([200, 200, 200, 200, 500, 500, 500], 200))
+    print(number_finder.find_first([200, 200, 200, 200, 500, 500, 500], 500))
+    print(number_finder.find_first([200, 200, 200, 200, 500, 500, 500], 100))
+
     # decrypt message
-    print(decrypt_message.decrypt("dnotq"))
-    print(decrypt_message.decrypt("flgxswdliefy")) # encyclopedia
-    print(decrypt_message.decrypt("rajsb")) # qqqqq
-    print(decrypt_message.decrypt("bvqmjhgghjmqvbiqzjugthwmdv")) # a to z
+    # print(decrypt_message.decrypt("dnotq"))
+    # print(decrypt_message.decrypt("flgxswdliefy")) # encyclopedia
+    # print(decrypt_message.decrypt("rajsb")) # qqqqq
+    # print(decrypt_message.decrypt("bvqmjhgghjmqvbiqzjugthwmdv")) # a to z
 
     # # Buy And Sell Stock
     # stock_prices = [7, 1, 5, 3, 6, 4]
