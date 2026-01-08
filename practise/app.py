@@ -21,3 +21,15 @@ print(name.index('h'))
 print(name.replace('h','H'))
 
 # Number in Python
+number = 79
+print(78 + 22)
+print(78 + 22.100)
+print(number)
+
+# Getting users input
+name = input('Input your name: ')
+age = input('Input your age: ')
+print(name)
+print('Your Name is : ' + name + ' and your age is ' + age)
+
+
