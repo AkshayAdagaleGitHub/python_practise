@@ -5,8 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bb14e109-3a27-4dc5-a465-d131d5eb4334" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/calculate_bill_amount.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practise/UK.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practise/django_basics.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/practise/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/practise/app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,30 +38,36 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.BusiestTimeInMall.executor": "Run",
-    "Python.DFS.executor": "Run",
-    "Python.Solution.executor": "Run",
-    "Python.app.executor": "Run",
-    "Python.basic_regex_parser.executor": "Run",
-    "Python.decrypt_message.executor": "Run",
-    "Python.deletion_distance.executor": "Run",
-    "Python.maximum_subarray_sum.executor": "Run",
-    "Python.meeting_planner.executor": "Run",
-    "Python.number_finder.executor": "Run",
-    "Python.shortest_word_edit_path.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.lookFeel",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.BusiestTimeInMall.executor&quot;: &quot;Run&quot;,
+    &quot;Python.DFS.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Solution.executor&quot;: &quot;Run&quot;,
+    &quot;Python.app.executor&quot;: &quot;Run&quot;,
+    &quot;Python.basic_regex_parser.executor&quot;: &quot;Run&quot;,
+    &quot;Python.decrypt_message.executor&quot;: &quot;Run&quot;,
+    &quot;Python.deletion_distance.executor&quot;: &quot;Run&quot;,
+    &quot;Python.maximum_subarray_sum.executor&quot;: &quot;Run&quot;,
+    &quot;Python.meeting_planner.executor&quot;: &quot;Run&quot;,
+    &quot;Python.number_finder.executor&quot;: &quot;Run&quot;,
+    &quot;Python.shortest_word_edit_path.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/aksha/OneDrive/Desktop/akshay/assignment/myproject&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\aksha\PycharmProjects\pythonProject\practise" />
+    </key>
+  </component>
   <component name="RunManager" selected="Python.app">
     <configuration name="DFS" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="pythonProject" />
@@ -214,7 +224,17 @@
       <workItem from="1767376947450" duration="1449000" />
       <workItem from="1767462719675" duration="1380000" />
       <workItem from="1767681738864" duration="50000" />
-      <workItem from="1767890490905" duration="6015000" />
+      <workItem from="1767890490905" duration="8577000" />
+      <workItem from="1767946191160" duration="268000" />
+      <workItem from="1767955472848" duration="23000" />
+      <workItem from="1768203045201" duration="700000" />
+      <workItem from="1768285756754" duration="89000" />
+      <workItem from="1768493724775" duration="737000" />
+      <workItem from="1768811563758" duration="5179000" />
+      <workItem from="1769362945352" duration="1000" />
+      <workItem from="1770779691348" duration="582000" />
+      <workItem from="1770826663784" duration="1334000" />
+      <workItem from="1772368832895" duration="91000" />
     </task>
     <servers />
   </component>
@@ -226,7 +246,7 @@
     <SUITE FILE_PATH="coverage/pythonProject$deletion_distance.coverage" NAME="deletion_distance Coverage Results" MODIFIED="1765561280480" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/pythonProject$decrypt_message.coverage" NAME="decrypt_message Coverage Results" MODIFIED="1765822042635" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/pythonProject$DFS.coverage" NAME="DFS Coverage Results" MODIFIED="1766081870740" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/pythonProject$app.coverage" NAME="app Coverage Results" MODIFIED="1767896926418" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/practise" />
+    <SUITE FILE_PATH="coverage/pythonProject$app.coverage" NAME="app Coverage Results" MODIFIED="1767898886146" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/practise" />
     <SUITE FILE_PATH="coverage/pythonProject$shortest_word_edit_path.coverage" NAME="shortest_word_edit_path Coverage Results" MODIFIED="1765297788210" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/pythonProject$meeting_planner.coverage" NAME="meeting_planner Coverage Results" MODIFIED="1767377705886" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/pythonProject$Solution.coverage" NAME="Solution Coverage Results" MODIFIED="1765858322329" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />

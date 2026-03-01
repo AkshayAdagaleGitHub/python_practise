@@ -38,6 +38,8 @@
 # word1 = input('Enter word to replace: ')
 # word2 = input('Enter word to replace it with: ')
 # print(sentence.replace(word1,word2))
+from getpass import getpass
+from multiprocessing.managers import Value
 
 # List Methods
 # countries=['united kingdom', 'Ghana', 'Nigeria', 'Australia', 'New Zealand']
@@ -140,19 +142,80 @@
 #     for item in lists:
 #         print(item)
 
-num1 = int(input("Enter number 1 : "))
-num2 = int(input("Enter number 2 : "))
-op = input("Enter operation : ")
-
-if op == "+":
-    print(num1 + num2)
-elif op == "-":
-    print(num1 - num2)
-elif op == "*":
-    print(num1 * num2)
-elif op == "/":
-    print(num1 / num2)
-else:
-    print('Invalid operation', op)
+# num1 = int(input("Enter number 1 : "))
+# num2 = int(input("Enter number 2 : "))
+# op = input("Enter operation : ")
+#
+# if op == "+":
+#     print(num1 + num2)
+# elif op == "-":
+#     print(num1 - num2)
+# elif op == "*":
+#     print(num1 * num2)
+# elif op == "/":
+#     print(num1 / num2)
+# else:
+#     print('Invalid operation', op)
 
 # Try Except
+# try:
+#     x = int(input("Enter number 1 : "))
+#     print(x)
+# except ValueError:
+#     print("Something went wrong... Please try again")
+# finally:
+#     print('Finally')
+
+# File
+'''
+w - edit
+a - append
+r+ - read and write
+'''
+# uk_file = open('UK.txt','r')
+# print(uk_file.readable())
+# for line in uk_file:
+#     print(line)
+
+# appending, writing to file
+# uk_file.write('new line')
+# uk_file.close()
+
+# Classes
+
+# class Person:
+#     def __init__(self, name, age):
+#         self.name = name
+#         self.age = age
+
+# p1= Person('John',34)
+# del p1 # delete the object
+# print(p1.name)
+# print(p1.age)
+
+# Inheritance
+#
+# class Student():
+#     name = 'John'
+#
+# class Person(Student):
+#     pass
+#
+# p1 = Person()
+# print(p1.name)
+#
+# username = input('Enter your username: ')
+# # password = getpass.getpass(prompt='Enter your password: ')
+# password = input('Enter your password: ')
+#
+# print("Account created successfully")
+# print("Please login ")
+#
+# username1 = input('Enter your username: ')
+# password2 = input('Enter your password: ')
+#
+# if username == username1 and password == password2:
+#     print("Welcome, Login successful")
+# else:
+#     print("Wrong password")
+
